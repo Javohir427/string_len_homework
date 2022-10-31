@@ -14,4 +14,4 @@ def main(num1, num2):
     
     return (a+b)
 
-print(main('12','13'))
+print(main('1','13'))
