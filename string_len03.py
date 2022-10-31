@@ -7,4 +7,8 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    a = len(a)
+    b = len(b)
+    return (a==b)
+
+print(main('tg6','h7f'))  
