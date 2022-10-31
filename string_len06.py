@@ -7,12 +7,11 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    a = len(s1)
-    b = len(s2)
-    if a>b: 
-       return (b)
+    
+    if len(s1)>len(s2): 
+       return (s2)
 
     else :
-        return (a)
+        return (s1)
 
-print(main('12345rgb','12f34567'))
+print(main('kode','exam'))
