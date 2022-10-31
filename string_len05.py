@@ -1,3 +1,6 @@
+
+
+
 def main(s1,s2):
     """
     Given two strings, s1 and s2. Find their total length.
@@ -7,4 +10,8 @@ def main(s1,s2):
     Returns:
         total length of strings
     """
-    return
+    a = len(s1)
+    b = len(s2)
+    return(a+b)
+
+print(main('12we','2wr5'))
