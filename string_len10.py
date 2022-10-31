@@ -8,4 +8,8 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    a =  s[0]
+    b = s[-1]
+
+    return a==b
+print(main('scr'))
