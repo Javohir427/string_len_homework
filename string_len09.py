@@ -1,3 +1,6 @@
+
+
+
 def main(num1, num2):
     """
     Given two non-negative integers, num1 and num2 represented as string.
@@ -9,9 +12,11 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    a = int(num1)
-    b = int(num2)
-    
-    return (a+b)
+    return int(num1)+int(num2)
 
-print(main('1','13'))
+print(main('12','5'))
+  
+
+
+
+
