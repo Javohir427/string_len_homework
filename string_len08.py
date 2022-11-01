@@ -8,4 +8,13 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    x = len(s)
+    a = x%2
+    if a==1:
+        return(s[x//2])
+    b = x%2
+    if b==0:
+        return(s[x//2-1:x//2+1])
+
+    
+print(main('goccod'))
