@@ -14,7 +14,7 @@ def main(num1, num2):
     """
     return int(num1)+int(num2)
 
-print(main('142','158'))
+print(main('2','8'))
   
 
 
